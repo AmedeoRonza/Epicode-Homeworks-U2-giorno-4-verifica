@@ -1,0 +1,140 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+
+.navbarbutton {
+  border: 0px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbarp {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 106px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.sectionp {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.sectionbutton {
+  border: 0px;
+  background-color: black;
+  color: white;
+  padding-block: 10px;
+  padding-inline: 25px;
+  border-radius: 25px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.sectionbuttonp {
+  font-size: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+
+.sectionleft {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+}
+
+aside {
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 52%;
+  gap: 0px;
+}
+
+.titolo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  width: 55%;
+}
+
+.carduno {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardunotop {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.numero {
+  font-size: 25px;
+  opacity: 0.3;
+}
+
+.img1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+}
+
+.img2 {
+  width: 25px;
+  height: 25px;
+}
+
+.img3 {
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+}
+
+.cardp b {
+  font-weight: bold;
+  cursor: pointer;
+}
+.color {
+  color: gray;
+}
+
+.logo {
+  cursor: pointer;
+}
